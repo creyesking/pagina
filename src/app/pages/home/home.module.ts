@@ -11,16 +11,26 @@ import { SnosotrosComponent } from './components/snosotros/snosotros.component';
 import { AexperienciaComponent } from './components/aexperiencia/aexperiencia.component';
 import { NproveedoresComponent } from './components/nproveedores/nproveedores.component';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
-
+import { SliderComponent } from './components/slider/slider.component';
+import { PrecientesComponent } from './components/precientes/precientes.component';
+import { SolucionesComponent } from './components/soluciones/soluciones.component';
+import { DestamosComponent } from './components/destamos/destamos.component';
 
 @NgModule({
   declarations: [
-    HomeComponent,HeaderComponent,FooterComponent, NserviciosComponent, SnosotrosComponent, AexperienciaComponent, NproveedoresComponent, TarjetasComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    NserviciosComponent,
+    SnosotrosComponent,
+    AexperienciaComponent,
+    NproveedoresComponent,
+    TarjetasComponent,
+    SliderComponent,
+    PrecientesComponent,
+    SolucionesComponent,
+    DestamosComponent
   ],
-  imports: [
-    CommonModule,
-    HomeRoutingModule,
-
-  ]
+  imports: [CommonModule, HomeRoutingModule],
 })
-export class HomeModule { }
+export class HomeModule {}
