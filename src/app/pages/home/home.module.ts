@@ -32,5 +32,6 @@ import { DestamosComponent } from './components/destamos/destamos.component';
     DestamosComponent
   ],
   imports: [CommonModule, HomeRoutingModule],
+  exports:[NproveedoresComponent, FooterComponent, HeaderComponent]
 })
 export class HomeModule {}
