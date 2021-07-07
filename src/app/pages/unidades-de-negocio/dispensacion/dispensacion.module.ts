@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DispensacionRoutingModule } from './dispensacion-routing.module';
 import { DispensacionComponent } from './dispensacion.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,7 @@ import { DispensacionComponent } from './dispensacion.component';
   ],
   imports: [
     CommonModule,
-    DispensacionRoutingModule
+    DispensacionRoutingModule, HomeModule
   ]
 })
 export class DispensacionModule { }

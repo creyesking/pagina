@@ -1,4 +1,4 @@
-    <div class="preloader-activate preloader-active">
+    <!-- <div class="preloader-activate preloader-active">
         <div class="preloader-area-wrap">
             <div class="spinner d-flex justify-content-center align-items-center h-100"><img
                     src="../assets/img/preloader.png" alt=""></div>
@@ -140,9 +140,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <app-header></app-header>
+
     <div class="breadcrumb-area breadcrumb-area-bg bg-img section-space--inner--bottom--50 section-space--inner--top--120"
-        data-bg="fotossecciones/slide_ramedicas_1568154972.jpg">
+        data-bg="fotossecciones/slide_ramedicas_1568154972.jpg" style="background-image: url(../../../../../../assets/fotossecciones/slide_ramedicas_1568154972.jpg);">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -167,9 +170,9 @@
                             <h1 class="big-title">Dispensación</h1>
                         </div>
                         <div class="service-details-image-block section-space--bottom--30">
-                            <div class="image image-popup"><a href="../fotospages/mac_dispensacion_1572553334.jpg"
+                            <div class="image image-popup"><a href="../../../assets/fotospages/mac_dispensacion_1572553334.jpg"
                                     class="single-gallery-thumb"><img
-                                        src="../fotospages/thu_dispensacion_1572553334.jpg" class="img-fluid"
+                                        src="../../../assets/fotospages/thu_dispensacion_1572553334.jpg" class="img-fluid"
                                         alt="Dispensación"></a></div>
                         </div>
                         <div class="service-details-split-text section-space--bottom--60">
@@ -234,7 +237,7 @@
                             <div class="sidebar-case-study-list">
                                 <div class="single-sidebar-case-study">
                                     <div class="single-sidebar-case-study__image"><a href="comercializacion.html"><img
-                                                src="../fotospages/mic_comercializacion_1572550762.jpg"
+                                                src="../../../assets/fotospages/mic_comercializacion_1572550762.jpg"
                                                 class="img-fluid" alt="Comercialización"></a></div>
                                     <div class="single-sidebar-case-study__content">
                                         <h3 class="title"><a href="comercializacion.html">Comercialización</a></h3>
@@ -242,7 +245,7 @@
                                 </div>
                                 <div class="single-sidebar-case-study">
                                     <div class="single-sidebar-case-study__image"><a href="hospitalaria.html"><img
-                                                src="../fotospages/mic_hospitalaria_1572553256.jpg" class="img-fluid"
+                                                src="../../../assets/fotospages/mic_hospitalaria_1572553256.jpg" class="img-fluid"
                                                 alt="Hospitalaria"></a></div>
                                     <div class="single-sidebar-case-study__content">
                                         <h3 class="title"><a href="hospitalaria.html">Hospitalaria</a></h3>
@@ -250,7 +253,7 @@
                                 </div>
                                 <div class="single-sidebar-case-study">
                                     <div class="single-sidebar-case-study__image"><a href="dispensacion.html"><img
-                                                src="../fotospages/mic_dispensacion_1572553334.jpg" class="img-fluid"
+                                                src="../../../assets/fotospages/mic_dispensacion_1572553334.jpg" class="img-fluid"
                                                 alt="Dispensación"></a></div>
                                     <div class="single-sidebar-case-study__content">
                                         <h3 class="title"><a href="dispensacion.html">Dispensación</a></h3>
@@ -267,7 +270,15 @@
             </div>
         </div>
     </div>
-    <div class="brand-logo-slider-area section-space--inner--120 border-top">
+
+
+    <app-nproveedores></app-nproveedores>
+    <app-footer></app-footer>
+
+
+
+
+    <!-- <div class="brand-logo-slider-area section-space--inner--120 border-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1209,8 +1220,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-area section-space--inner--top--120 dark-bg" style="background-color:#003558;">
+    </div> -->
+    <!-- <div class="footer-area section-space--inner--top--120 dark-bg" style="background-color:#003558;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1293,7 +1304,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="mobile-menu-overlay" id="mobile-menu-overlay">
         <div class="mobile-menu-overlay__header">
             <div class="container-fluid--cp-60">
@@ -1506,64 +1517,226 @@
             $('#modalEnConstruccion').modal('show')
         }
     </script>
-    <style type="text/css">
-        .padrebtn {
-            position: fixed;
-            margin: 0;
-            height: 60px;
-            z-index: 9999;
-        }
+<style type="text/css">
+  .breadcrumb-area-bg {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+  }
 
-        .hijobtn {
-            background-color: #25D366;
-            color: #fff;
-            border-radius: 30px;
-            box-shadow: 1px 6px 24px 0 rgba(7, 94, 84, .24);
-            cursor: pointer;
-            transition: background-color .5s ease-in-out;
-            width: 60px;
-            height: 60px;
-            margin-left: 14px;
-            margin-right: 14px;
-        }
+  .breadcrumb-area-bg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -1;
+    content: "";
+  }
 
-        .wsbtn {
-            width: 36px;
-            height: 60px;
-            margin-left: 12px;
-            margin-right: 12px;
-        }
+  .breadcrumb-page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
 
-        .wsbtn-tl {
-            top: 8px;
-            left: 0;
-        }
+  .breadcrumb-page-title--style2 {
+    margin-bottom: 100px;
+  }
 
-        .wsbtn-tr {
-            top: 8px;
-            right: 0;
-        }
+  .breadcrumb-page-list {
+    text-align: right;
+  }
 
-        .wsbtn-ml {
-            top: 46%;
-            left: 0;
-        }
+  .breadcrumb-page-list li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
 
-        .wsbtn-mr {
-            top: 46%;
-            right: 0;
-        }
+  .breadcrumb-page-list li.has-children {
+    position: relative;
+    padding-right: 25px;
+  }
 
-        .wsbtn-bl {
-            left: 0;
-            bottom: 8px;
-        }
+  .breadcrumb-page-list li.has-children a {
+    color: #ffffff;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 2px 0;
+  }
 
-        .wsbtn-br {
-            bottom: 8px;
-            right: 0;
-        }
-    </style>
+  .breadcrumb-page-list li.has-children a:after {
+    -webkit-transition: 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    -o-transition: 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    transition: 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    content: '';
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    position: absolute;
+    left: auto;
+    right: 0;
+    z-index: 1;
+    background-color: transparent;
+  }
+
+  .breadcrumb-page-list li.has-children:before {
+    font-family: Ionicons;
+    content: '\f125';
+    font-size: 8px;
+    font-weight: 500;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+
+  .breadcrumb-page-list li.has-children:hover a:after {
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+
+  .breadcrumb-page-list--style2 {
+    text-align: left;
+  }
+
+  .breadcrumb-area-bg {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .breadcrumb-area-bg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 0.3;
+    z-index: -1;
+    content: "";
+  }
+
+  .breadcrumb-area-bg::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+
+  .breadcrumb-page-list li.has-children {
+    position: relative;
+    padding-right: 25px;
+  }
+
+  .breadcrumb-area-bg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -1;
+    content: "";
+  }
+
+  .breadcrumb-page-list--style2 {
+    text-align: left;
+  }
+
+  .breadcrumb-page-list li.has-children a {
+    color: #ffffff;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 2px 0;
+  }
+
+  .breadcrumb-page-list li.has-children {
+    position: relative;
+    padding-right: 25px;
+  }
+
+  .breadcrumb-page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+
+  .padrebtn {
+    position: fixed;
+    margin: 0;
+    height: 60px;
+    z-index: 9999;
+  }
+
+  .hijobtn {
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 1px 6px 24px 0 rgba(7, 94, 84, .24);
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+    width: 60px;
+    height: 60px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .wsbtn {
+    width: 36px;
+    height: 60px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .wsbtn-tl {
+    top: 8px;
+    left: 0;
+  }
+
+  .wsbtn-tr {
+    top: 8px;
+    right: 0;
+  }
+
+  .wsbtn-ml {
+    top: 46%;
+    left: 0;
+  }
+
+  .wsbtn-mr {
+    top: 46%;
+    right: 0;
+  }
+
+  .wsbtn-bl {
+    left: 0;
+    bottom: 8px;
+  }
+
+  .wsbtn-br {
+    bottom: 8px;
+    right: 0;
+  }
+</style>
     <div class="padrebtn wsbtn-bl"><a target="_blank"
             href="https://api.whatsapp.com/send?phone=573174726401&text=Hola quisiera mayor información...">
             <div class="hijobtn"><svg class="wsbtn" xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24">
