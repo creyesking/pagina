@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ValoresCorporativosRoutingModule } from './valores-corporativos-routing.module';
 import { ValoresCorporativosComponent } from './valores-corporativos.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ValoresCorporativosComponent } from './valores-corporativos.component';
   ],
   imports: [
     CommonModule,
-    ValoresCorporativosRoutingModule
+    ValoresCorporativosRoutingModule,
+    HomeModule
   ]
 })
 export class ValoresCorporativosModule { }

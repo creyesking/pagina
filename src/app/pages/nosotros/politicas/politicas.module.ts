@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PoliticasRoutingModule } from './politicas-routing.module';
 import { PoliticasComponent } from './politicas.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PoliticasComponent } from './politicas.component';
   ],
   imports: [
     CommonModule,
-    PoliticasRoutingModule
+    PoliticasRoutingModule,
+    HomeModule
   ]
 })
 export class PoliticasModule { }

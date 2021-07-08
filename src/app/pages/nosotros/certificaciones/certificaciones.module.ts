@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CertificacionesRoutingModule } from './certificaciones-routing.module';
 import { CertificacionesComponent } from './certificaciones.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { CertificacionesComponent } from './certificaciones.component';
   ],
   imports: [
     CommonModule,
-    CertificacionesRoutingModule
+    CertificacionesRoutingModule,
+    HomeModule
   ]
 })
 export class CertificacionesModule { }

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MisionYVisionRoutingModule } from './mision-y-vision-routing.module';
 import { MisionYVisionComponent } from './mision-y-vision.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MisionYVisionComponent } from './mision-y-vision.component';
   ],
   imports: [
     CommonModule,
-    MisionYVisionRoutingModule
+    MisionYVisionRoutingModule,
+    HomeModule
   ]
 })
 export class MisionYVisionModule { }
