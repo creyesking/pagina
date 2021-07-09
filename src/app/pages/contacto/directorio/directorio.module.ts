@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DirectorioRoutingModule } from './directorio-routing.module';
 import { DirectorioComponent } from './directorio.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { DirectorioComponent } from './directorio.component';
   ],
   imports: [
     CommonModule,
-    DirectorioRoutingModule
+    DirectorioRoutingModule,
+    HomeModule
   ]
 })
 export class DirectorioModule { }

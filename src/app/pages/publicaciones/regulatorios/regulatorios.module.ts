@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { RegulatoriosRoutingModule } from './regulatorios-routing.module';
 import { RegulatoriosComponent } from './regulatorios.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { RegulatoriosComponent } from './regulatorios.component';
   ],
   imports: [
     CommonModule,
-    RegulatoriosRoutingModule
+    RegulatoriosRoutingModule,
+    HomeModule
   ]
 })
 export class RegulatoriosModule { }

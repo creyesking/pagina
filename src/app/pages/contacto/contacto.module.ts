@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { ContactoRoutingModule } from './contacto-routing.module';
 import { ContactoComponent } from './contacto.component';
 
+import { HomeModule } from '../home/home.module';
+
 
 @NgModule({
   declarations: [
@@ -11,7 +13,8 @@ import { ContactoComponent } from './contacto.component';
   ],
   imports: [
     CommonModule,
-    ContactoRoutingModule
+    ContactoRoutingModule,
+    HomeModule
   ]
 })
 export class ContactoModule { }

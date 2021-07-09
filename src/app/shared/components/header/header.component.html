@@ -27,74 +27,74 @@
       <div class="row no-gutters">
         <div class="col-lg-12 position-static">
           <div class="header-navigation-container">
-            <div class="logo"><a href="inicio.html"><img src="assets/img/logo/logo-blue-dark.png"
+            <div class="logo"><a href="inicio"><img src="assets/img/logo/logo-blue-dark.png"
                   class="img-fluid" alt="Ramédicas"></a></div>
             <div class="header-navigation-wrapper header-navigation-wrapper--style4">
               <div class="header-navigation-wrapper--style3__left">
                 <div class="header-navigation__nav header-navigation__nav--style5 position-static">
                   <nav>
                     <ul>
-                      <li class=" active "><a href="inicio.html" class="active"> Inicio</a>
+                      <li class=" active "><a routerLink="/home" routerLinkActive="active" class="active"> Inicio</a>
                       </li>
                       <li class="  has-children has-children--multilevel-submenu"><a
                           href="javascript:void(0)" class="">Nosotros</a>
                         <ul class="submenu">
-                          <li><a href="nosotros/quienes-somos.html" class="">Quienes
+                          <li><a routerLink="/nosotros/quienes-somos" class="">Quienes
                               somos</a></li>
-                          <li><a href="nosotros/valores-corporativos.html"
+                          <li><a routerLink="/nosotros/valores-corporativos"
                               class="">Valores Corporativos</a></li>
-                          <li><a href="nosotros/mision-y-vision.html" class="">Misión y
+                          <li><a routerLink="/nosotros/mision-y-vision" class="">Misión y
                               visión</a></li>
-                          <li><a href="nosotros/politicas.html" class="">Políticas</a>
+                          <li><a routerLink="/nosotros/politicas" class="">Políticas</a>
                           </li>
-                          <li><a href="nosotros/certificaciones.html"
+                          <li><a routerLink="/nosotros/certificaciones"
                               class="">Certificaciones</a></li>
-                          <li><a href="nosotros/politica-de-tratamiento-de-datos.html"
+                          <li><a routerLink="/nosotros/politica-de-tratamiento-de-datos"
                               class="">Política de tratamiento de datos</a></li>
                         </ul>
                       </li>
                       <li class="  has-children has-children--multilevel-submenu"><a
                           href="javascript:void(0)" class="">Unidades de negocio</a>
                         <ul class="submenu">
-                          <li><a href="unidades-de-negocio/comercializacion.html"
+                          <li><a routerLink="/unidades-de-negocio/comercializacion"
                               class="">Comercialización</a></li>
-                          <li><a href="unidades-de-negocio/hospitalaria.html"
+                          <li><a routerLink="/unidades-de-negocio/hospitalaria"
                               class="">Hospitalaria</a></li>
-                          <li><a href="unidades-de-negocio/dispensacion.html"
+                          <li><a routerLink="/unidades-de-negocio/dispensacion"
                               class="">Dispensación</a></li>
                         </ul>
                       </li>
                       <li class="  has-children has-children--multilevel-submenu"><a
                           href="javascript:void(0)" class="">Portafolio</a>
                         <ul class="submenu">
-                          <li><a href="portafolio/lineas-de-productos.html"
+                          <li><a routerLink="/portafolio/lineas-de-productos"
                               class="">Lineas de productos</a></li>
-                          <li><a href="portafolio/nuestros-proveedores.html"
+                          <li><a routerLink="/portafolio/nuestros-proveedores"
                               class="">Nuestros proveedores</a></li>
                         </ul>
                       </li>
                       <li class="  has-children has-children--multilevel-submenu"><a
-                          href="publicaciones.html" class="">Publicaciones</a>
+                          routerLink="/publicaciones" class="">Publicaciones</a>
                         <ul class="submenu">
-                          <li><a href="publicaciones/regulatorios.html"
+                          <li><a routerLink="/publicaciones/regulatorios"
                               class="">Regulatorios</a></li>
-                          <li><a href="publicaciones/actualidad.html"
+                          <li><a routerLink="/publicaciones/actualidad"
                               class="">Actualidad</a></li>
-                          <li><a href="publicaciones/novedades.html"
+                          <li><a routerLink="/publicaciones/novedades"
                               class="">Novedades</a></li>
                         </ul>
                       </li>
                       <li class="  has-children has-children--multilevel-submenu"><a
                           href="javascript:void(0)" class="">Contacto</a>
                         <ul class="submenu">
-                          <li><a href="contacto/directorio.html" class="">Directorio</a>
+                          <li><a routerLink="/contacto/directorio" class="">Directorio</a>
                           </li>
-                          <li><a href="contacto/trabaje-con-nosotros.html"
+                          <li><a routerLink="/contacto/trabaje-con-nosotros"
                               class="">Trabaje con nosotros</a></li>
-                          <li><a href="index-1.htm" target="_blank" class="">PQRS</a></li>
-                          <li><a href="index-2.htm" target="_blank" class="">Plataforma
-                              Clientes</a></li>
-                          <li><a href="contacto.html" class="">Escríbenos</a></li>
+                          <li><a href="https://pqrs.ramedicas.com/" target="_blank" class="">PQRS</a></li>
+                          <li><a href="https://devo-client.ramedicas.com/auth" target="_blank" class="">Plataforma
+                              Clientes</a></li><li><a href="https://convocatorias.ramedicas.com/#/auth" target="_blank" class="">Convocatorias</a></li>
+                          <li><a routerLink="/contacto" class="">Escríbenos</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -107,7 +107,7 @@
                       id="search-overlay-trigger"><i class="ion-ios-search-strong"></i></a>
                   </div>
                 </div>
-                <div class="get-quote-button-wrapper"><a href="contacto.html">ESCRÍBANOS</a></div>
+                <div class="get-quote-button-wrapper"><a routerLink="/contacto">ESCRÍBANOS</a></div>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4 col-sm-6 col-9">
-            <div class="logo"><a href="inicio.html"><img src="assets/img/logo/logo-blue-dark.png"
+            <div class="logo"><a href="inicio"><img src="assets/img/logo/logo-blue-dark.png"
                   class="img-fluid" alt="Ramédicas"></a></div>
           </div>
           <div class="col-md-8 col-sm-6 col-3">

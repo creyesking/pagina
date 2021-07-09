@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ActualidadRoutingModule } from './actualidad-routing.module';
 import { ActualidadComponent } from './actualidad.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ActualidadComponent } from './actualidad.component';
   ],
   imports: [
     CommonModule,
-    ActualidadRoutingModule
+    ActualidadRoutingModule,
+    HomeModule
   ]
 })
 export class ActualidadModule { }

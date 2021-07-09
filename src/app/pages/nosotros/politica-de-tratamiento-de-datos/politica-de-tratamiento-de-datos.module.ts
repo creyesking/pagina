@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PoliticaDeTratamientoDeDatosRoutingModule } from './politica-de-tratamiento-de-datos-routing.module';
 import { PoliticaDeTratamientoDeDatosComponent } from './politica-de-tratamiento-de-datos.component';
+import { HomeModule } from '../../home/home.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PoliticaDeTratamientoDeDatosComponent } from './politica-de-tratamiento
   ],
   imports: [
     CommonModule,
-    PoliticaDeTratamientoDeDatosRoutingModule
+    PoliticaDeTratamientoDeDatosRoutingModule,
+    HomeModule
   ]
 })
 export class PoliticaDeTratamientoDeDatosModule { }
