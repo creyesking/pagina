@@ -1,0 +1,10 @@
+.service-details-image-block .image img {
+	width: 100%;
+}
+
+.service-details-image-block .text {
+	background-color: #222;
+	color: #ffffff;
+	padding: 12px 25px;
+	font-style: italic;
+}

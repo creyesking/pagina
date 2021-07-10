@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-md-12">
               <div class="footer-intro-wrapper">
                 <div class="footer-logo">
-                  <a href="inicio.html"><img src="../../../assets/img/logo/logo-blue-light.png" class="img-fluid"
+                  <a routerLink="/home"><img src="../../../assets/img/logo/logo-blue-light.png" class="img-fluid"
                       alt="" /></a>
                 </div>
                 <div class="footer-desc">
@@ -26,13 +26,13 @@
                 <h4 class="footer-widget__title">UNIDADES DE NEGOCIO</h4>
                 <ul class="footer-widget__navigation">
                   <li>
-                    <a href="unidades-de-negocio/comercializacion.html">Comercialización</a>
+                    <a routerLink="/unidades-de-negocio/comercializacion">Comercialización</a>
                   </li>
                   <li>
-                    <a href="unidades-de-negocio/hospitalaria.html">Hospitalaria</a>
+                    <a routerLink="/unidades-de-negocio/hospitalaria">Hospitalaria</a>
                   </li>
                   <li>
-                    <a href="unidades-de-negocio/dispensacion.html">Dispensación</a>
+                    <a routerLink="/unidades-de-negocio/dispensacion">Dispensación</a>
                   </li>
                 </ul>
               </div>
@@ -42,14 +42,14 @@
                 <h4 class="footer-widget__title">PORTAFOLIO</h4>
                 <ul class="footer-widget__navigation">
                   <li>
-                    <a href="portafolio/lineas-de-productos.html">Lineas de productos</a>
+                    <a routerLink="/portafolio/lineas-de-productos">Lineas de productos</a>
                   </li>
                   <li>
-                    <a href="portafolio/nuestros-proveedores.html">Proveedores</a>
+                    <a routerLink="/portafolio/nuestros-proveedores">Proveedores</a>
                   </li>
-                  <li><a href=""></a></li>
-                  <li><a href=""></a></li>
-                  <li><a href=""></a></li>
+                  <li><a routerLink="/"></a></li>
+                  <li><a routerLink="/"></a></li>
+                  <li><a routerLink="/"></a></li>
                 </ul>
               </div>
             </div>
@@ -58,12 +58,12 @@
                 <h4 class="footer-widget__title">ACCESO RÁPIDO</h4>
                 <ul class="footer-widget__navigation">
                   <li>
-                    <a href="index-3.htm#/auth">Convocatorias proveedores</a>
+                    <a href="https://convocatorias.ramedicas.com/#/auth">Convocatorias proveedores</a>
                   </li>
-                  <li><a href="index-4.htm">Devoluciones</a></li>
-                  <li><a href="index-1.htm">PQRS</a></li>
-                  <li><a href="index-5.htm">RMD Web</a></li>
-                  <li><a href=""></a></li>
+                  <li><a href="https://devo-client.ramedicas.com/auth">Devoluciones</a></li>
+                  <li><a href="https://pqrs.ramedicas.com/">PQRS</a></li>
+                  <li><a href="https://rmd-web.ramedicas.com/auth">RMD Web</a></li>
+
                 </ul>
               </div>
             </div>
@@ -79,19 +79,19 @@
               <div class="footer-copyright">
                 <ul class="footer-copyright-right__navigation">
                   <li>
-                    <a href="nosotros/politica-de-tratamiento-de-datos.html">Política de tratamiento de datos</a>
+                    <a routerLink="/nosotros/politica-de-tratamiento-de-datos">Política de tratamiento de datos</a>
                   </li>
                   <li>
-                    <a href="contacto/directorio.html">Servicio al cliente</a>
+                    <a routerLink="/contacto/directorio">Servicio al cliente</a>
                   </li>
-                  <li><a href="contacto.html">Contáctenos</a></li>
+                  <li><a routerLink="/contacto">Contáctenos</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-md-12">
               <div class="footer-copyright-left">
                 Diseñado y hospedado por
-                <a href="https://www.damos.co" target="_blank">Damos Soluciones</a>
+                <a>Departamento de TiCS RAMEDICAS</a>
               </div>
             </div>
           </div>
@@ -106,13 +106,13 @@
       <div class="row align-items-center">
         <div class="col-md-4 col-sm-6 col-9">
           <div class="logo">
-            <a href="inicio.html"><img src="../../../assets/img/logo/logo-blue-dark.png" class="img-fluid"
+            <a routerLink="/home"><img src="../../../assets/img/logo/logo-blue-dark.png" class="img-fluid"
                 alt="Ramédicas" /></a>
           </div>
         </div>
         <div class="col-md-8 col-sm-6 col-3">
           <div class="mobile-menu-content">
-            <a class="mobile-navigation-close-icon" id="mobile-menu-close-trigger" href="javascript:void(0)"><i
+            <a class="mobile-navigation-close-icon" id="mobile-menu-close-trigger" routerLink="/javascript:void(0)"><i
                 class="ion-ios-close-empty"></i></a>
           </div>
         </div>
@@ -122,27 +122,27 @@
   <div class="mobile-menu-overlay__body">
     <nav class="offcanvas-navigation">
       <ul>
-        <li class="active"><a href="inicio.html" class="active"> Inicio</a></li>
+        <li class="active"><a routerLink="/home" class="active"> Inicio</a></li>
         <li class="has-children">
-          <a href="javascript:void(0)" class="">Nosotros</a>
+          <a routerLink="/javascript:void(0)" class="">Nosotros</a>
           <ul class="sub-menu">
             <li>
-              <a href="nosotros/quienes-somos.html" class="" hello="">Quienes somos</a>
+              <a routerLink="/nosotros/quienes-somos" class="" hello="">Quienes somos</a>
             </li>
             <li>
-              <a href="nosotros/valores-corporativos.html" class="" hello="">Valores Corporativos</a>
+              <a routerLink="/nosotros/valores-corporativos" class="" hello="">Valores Corporativos</a>
             </li>
             <li>
-              <a href="nosotros/mision-y-vision.html" class="" hello="">Misión y visión</a>
+              <a routerLink="/nosotros/mision-y-vision" class="" hello="">Misión y visión</a>
             </li>
             <li>
-              <a href="nosotros/politicas.html" class="" hello="">Políticas</a>
+              <a routerLink="/nosotros/politicas" class="" hello="">Políticas</a>
             </li>
             <li>
-              <a href="nosotros/certificaciones.html" class="" hello="">Certificaciones</a>
+              <a routerLink="/nosotros/certificaciones" class="" hello="">Certificaciones</a>
             </li>
             <li>
-              <a href="nosotros/politica-de-tratamiento-de-datos.html" class="" hello="">Política de tratamiento de
+              <a routerLink="/nosotros/politica-de-tratamiento-de-datos" class="" hello="">Política de tratamiento de
                 datos</a>
             </li>
           </ul>
@@ -151,13 +151,13 @@
           <a href="javascript:void(0)" class="">Unidades de negocio</a>
           <ul class="sub-menu">
             <li>
-              <a href="unidades-de-negocio/comercializacion.html" class="" hello="">Comercialización</a>
+              <a routerLink="/unidades-de-negocio/comercializacion" class="" hello="">Comercialización</a>
             </li>
             <li>
-              <a href="unidades-de-negocio/hospitalaria.html" class="" hello="">Hospitalaria</a>
+              <a routerLink="/unidades-de-negocio/hospitalaria" class="" hello="">Hospitalaria</a>
             </li>
             <li>
-              <a href="unidades-de-negocio/dispensacion.html" class="" hello="">Dispensación</a>
+              <a routerLink="/unidades-de-negocio/dispensacion" class="" hello="">Dispensación</a>
             </li>
           </ul>
         </li>
@@ -165,24 +165,24 @@
           <a href="javascript:void(0)" class="">Portafolio</a>
           <ul class="sub-menu">
             <li>
-              <a href="portafolio/lineas-de-productos.html" class="" hello="">Lineas de productos</a>
+              <a routerLink="/portafolio/lineas-de-productos" class="" hello="">Lineas de productos</a>
             </li>
             <li>
-              <a href="portafolio/nuestros-proveedores.html" class="" hello="">Nuestros proveedores</a>
+              <a routerLink="/portafolio/nuestros-proveedores" class="" hello="">Nuestros proveedores</a>
             </li>
           </ul>
         </li>
         <li class="has-children">
-          <a href="publicaciones.html" class="">Publicaciones</a>
+          <a routerLink="/publicaciones" class="">Publicaciones</a>
           <ul class="sub-menu">
             <li>
-              <a href="publicaciones/regulatorios.html" class="" hello="">Regulatorios</a>
+              <a routerLink="/publicaciones/regulatorios" class="" hello="">Regulatorios</a>
             </li>
             <li>
-              <a href="publicaciones/actualidad.html" class="" hello="">Actualidad</a>
+              <a routerLink="/publicaciones/actualidad" class="" hello="">Actualidad</a>
             </li>
             <li>
-              <a href="publicaciones/novedades.html" class="" hello="">Novedades</a>
+              <a routerLink="/publicaciones/novedades" class="" hello="">Novedades</a>
             </li>
           </ul>
         </li>
@@ -190,16 +190,16 @@
           <a href="javascript:void(0)" class="">Contacto</a>
           <ul class="sub-menu">
             <li>
-              <a href="contacto/directorio.html" class="" hello="">Directorio</a>
+              <a routerLink="/contacto/directorio" class="" hello="">Directorio</a>
             </li>
             <li>
-              <a href="contacto/trabaje-con-nosotros.html" class="" hello="">Trabaje con nosotros</a>
+              <a routerLink="/contacto/trabaje-con-nosotros" class="" hello="">Trabaje con nosotros</a>
             </li>
-            <li><a href="index-1.htm" class="" hello="">PQRS</a></li>
+            <li><a routerLink="/index-1.htm" class="" hello="">PQRS</a></li>
             <li>
-              <a href="index-2.htm" class="" hello="">Plataforma Clientes</a>
+              <a routerLink="/index-2.htm" class="" hello="">Plataforma Clientes</a>
             </li>
-            <li><a href="contacto.html" class="" hello="">Escríbenos</a></li>
+            <li><a routerLink="/contacto" class="" hello="">Escríbenos</a></li>
           </ul>
         </li>
       </ul>
