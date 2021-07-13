@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-politicas',
   templateUrl: './politicas.component.html',
-  styleUrls: ['./politicas.component.css']
+  styleUrls: ['./politicas.component.css'],
 })
 export class PoliticasComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

@@ -5,15 +5,8 @@ import { TrabajeConNosotrosRoutingModule } from './trabaje-con-nosotros-routing.
 import { TrabajeConNosotrosComponent } from './trabaje-con-nosotros.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    TrabajeConNosotrosComponent
-  ],
-  imports: [
-    CommonModule,
-    TrabajeConNosotrosRoutingModule,
-    HomeModule
-  ]
+  declarations: [TrabajeConNosotrosComponent],
+  imports: [CommonModule, TrabajeConNosotrosRoutingModule, HomeModule],
 })
-export class TrabajeConNosotrosModule { }
+export class TrabajeConNosotrosModule {}

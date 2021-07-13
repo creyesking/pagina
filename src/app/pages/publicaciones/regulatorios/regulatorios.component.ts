@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-regulatorios',
   templateUrl: './regulatorios.component.html',
-  styleUrls: ['./regulatorios.component.css']
+  styleUrls: ['./regulatorios.component.css'],
 })
 export class RegulatoriosComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

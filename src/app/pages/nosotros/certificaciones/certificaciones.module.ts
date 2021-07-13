@@ -5,15 +5,8 @@ import { CertificacionesRoutingModule } from './certificaciones-routing.module';
 import { CertificacionesComponent } from './certificaciones.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    CertificacionesComponent
-  ],
-  imports: [
-    CommonModule,
-    CertificacionesRoutingModule,
-    HomeModule
-  ]
+  declarations: [CertificacionesComponent],
+  imports: [CommonModule, CertificacionesRoutingModule, HomeModule],
 })
-export class CertificacionesModule { }
+export class CertificacionesModule {}

@@ -5,15 +5,8 @@ import { QuienesSomosRoutingModule } from './quienes-somos-routing.module';
 import { QuienesSomosComponent } from './quienes-somos.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    QuienesSomosComponent
-  ],
-  imports: [
-    CommonModule,
-    QuienesSomosRoutingModule,
-    HomeModule
-  ]
+  declarations: [QuienesSomosComponent],
+  imports: [CommonModule, QuienesSomosRoutingModule, HomeModule],
 })
-export class QuienesSomosModule { }
+export class QuienesSomosModule {}

@@ -5,15 +5,8 @@ import { DirectorioRoutingModule } from './directorio-routing.module';
 import { DirectorioComponent } from './directorio.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    DirectorioComponent
-  ],
-  imports: [
-    CommonModule,
-    DirectorioRoutingModule,
-    HomeModule
-  ]
+  declarations: [DirectorioComponent],
+  imports: [CommonModule, DirectorioRoutingModule, HomeModule],
 })
-export class DirectorioModule { }
+export class DirectorioModule {}

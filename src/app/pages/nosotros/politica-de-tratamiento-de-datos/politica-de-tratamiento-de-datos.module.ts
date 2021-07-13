@@ -5,15 +5,12 @@ import { PoliticaDeTratamientoDeDatosRoutingModule } from './politica-de-tratami
 import { PoliticaDeTratamientoDeDatosComponent } from './politica-de-tratamiento-de-datos.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    PoliticaDeTratamientoDeDatosComponent
-  ],
+  declarations: [PoliticaDeTratamientoDeDatosComponent],
   imports: [
     CommonModule,
     PoliticaDeTratamientoDeDatosRoutingModule,
-    HomeModule
-  ]
+    HomeModule,
+  ],
 })
-export class PoliticaDeTratamientoDeDatosModule { }
+export class PoliticaDeTratamientoDeDatosModule {}

@@ -5,15 +5,8 @@ import { NovedadesRoutingModule } from './novedades-routing.module';
 import { NovedadesComponent } from './novedades.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    NovedadesComponent
-  ],
-  imports: [
-    CommonModule,
-    NovedadesRoutingModule,
-    HomeModule
-  ]
+  declarations: [NovedadesComponent],
+  imports: [CommonModule, NovedadesRoutingModule, HomeModule],
 })
-export class NovedadesModule { }
+export class NovedadesModule {}

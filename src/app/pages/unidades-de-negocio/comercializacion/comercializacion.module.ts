@@ -5,17 +5,8 @@ import { ComercializacionRoutingModule } from './comercializacion-routing.module
 import { ComercializacionComponent } from './comercializacion.component';
 import { HomeModule } from '../../home/home.module';
 
-
-
 @NgModule({
-  declarations: [
-    ComercializacionComponent
-  ],
-  imports: [
-    CommonModule,
-    ComercializacionRoutingModule,
-    HomeModule
-
-  ]
+  declarations: [ComercializacionComponent],
+  imports: [CommonModule, ComercializacionRoutingModule, HomeModule],
 })
-export class ComercializacionModule { }
+export class ComercializacionModule {}

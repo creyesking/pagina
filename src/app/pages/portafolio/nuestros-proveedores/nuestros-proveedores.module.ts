@@ -5,15 +5,8 @@ import { NuestrosProveedoresRoutingModule } from './nuestros-proveedores-routing
 import { NuestrosProveedoresComponent } from './nuestros-proveedores.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    NuestrosProveedoresComponent
-  ],
-  imports: [
-    CommonModule,
-    NuestrosProveedoresRoutingModule,
-    HomeModule
-  ]
+  declarations: [NuestrosProveedoresComponent],
+  imports: [CommonModule, NuestrosProveedoresRoutingModule, HomeModule],
 })
-export class NuestrosProveedoresModule { }
+export class NuestrosProveedoresModule {}

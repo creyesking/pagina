@@ -26,9 +26,25 @@ const routes: Routes = [
         (m) => m.UnidadesDeNegocioModule
       ),
   },
-  { path: 'portafolio', loadChildren: () => import('./pages/portafolio/portafolio.module').then(m => m.PortafolioModule) },
-  { path: 'publicaciones', loadChildren: () => import('./pages/publicaciones/publicaciones.module').then(m => m.PublicacionesModule) },
-  { path: 'contacto', loadChildren: () => import('./pages/contacto/contacto.module').then(m => m.ContactoModule) },
+  {
+    path: 'portafolio',
+    loadChildren: () =>
+      import('./pages/portafolio/portafolio.module').then(
+        (m) => m.PortafolioModule
+      ),
+  },
+  {
+    path: 'publicaciones',
+    loadChildren: () =>
+      import('./pages/publicaciones/publicaciones.module').then(
+        (m) => m.PublicacionesModule
+      ),
+  },
+  {
+    path: 'contacto',
+    loadChildren: () =>
+      import('./pages/contacto/contacto.module').then((m) => m.ContactoModule),
+  },
 ];
 
 @NgModule({

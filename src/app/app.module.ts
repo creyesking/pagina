@@ -9,17 +9,10 @@ import { AppComponent } from './app.component';
 // import { FooterComponent } from './shared/components/footer/footer.component';
 import { HomeModule } from './pages/home/home.module';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    ],
-  imports: [
-    BrowserModule,
-    HomeModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, HomeModule, AppRoutingModule],
   providers: [{ provide: APP_BASE_HREF, useValue: '' }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

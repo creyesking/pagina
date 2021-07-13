@@ -6,6 +6,6 @@ const routes: Routes = [{ path: '', component: MisionYVisionComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class MisionYVisionRoutingModule { }
+export class MisionYVisionRoutingModule {}

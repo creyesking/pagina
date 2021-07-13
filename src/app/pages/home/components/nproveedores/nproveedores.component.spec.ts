@@ -8,9 +8,8 @@ describe('NproveedoresComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NproveedoresComponent ]
-    })
-    .compileComponents();
+      declarations: [NproveedoresComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

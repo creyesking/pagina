@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-actualidad',
   templateUrl: './actualidad.component.html',
-  styleUrls: ['./actualidad.component.css']
+  styleUrls: ['./actualidad.component.css'],
 })
 export class ActualidadComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

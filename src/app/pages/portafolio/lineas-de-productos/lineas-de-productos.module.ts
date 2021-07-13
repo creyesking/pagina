@@ -5,15 +5,8 @@ import { LineasDeProductosRoutingModule } from './lineas-de-productos-routing.mo
 import { LineasDeProductosComponent } from './lineas-de-productos.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    LineasDeProductosComponent
-  ],
-  imports: [
-    CommonModule,
-    LineasDeProductosRoutingModule,
-    HomeModule
-  ]
+  declarations: [LineasDeProductosComponent],
+  imports: [CommonModule, LineasDeProductosRoutingModule, HomeModule],
 })
-export class LineasDeProductosModule { }
+export class LineasDeProductosModule {}

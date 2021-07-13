@@ -6,15 +6,8 @@ import { ContactoComponent } from './contacto.component';
 
 import { HomeModule } from '../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    ContactoComponent
-  ],
-  imports: [
-    CommonModule,
-    ContactoRoutingModule,
-    HomeModule
-  ]
+  declarations: [ContactoComponent],
+  imports: [CommonModule, ContactoRoutingModule, HomeModule],
 })
-export class ContactoModule { }
+export class ContactoModule {}

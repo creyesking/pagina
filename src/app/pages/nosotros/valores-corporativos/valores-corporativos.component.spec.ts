@@ -8,9 +8,8 @@ describe('ValoresCorporativosComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ValoresCorporativosComponent ]
-    })
-    .compileComponents();
+      declarations: [ValoresCorporativosComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

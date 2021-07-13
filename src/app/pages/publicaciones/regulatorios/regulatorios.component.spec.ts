@@ -8,9 +8,8 @@ describe('RegulatoriosComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RegulatoriosComponent ]
-    })
-    .compileComponents();
+      declarations: [RegulatoriosComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

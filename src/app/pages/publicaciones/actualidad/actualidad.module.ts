@@ -5,15 +5,8 @@ import { ActualidadRoutingModule } from './actualidad-routing.module';
 import { ActualidadComponent } from './actualidad.component';
 import { HomeModule } from '../../home/home.module';
 
-
 @NgModule({
-  declarations: [
-    ActualidadComponent
-  ],
-  imports: [
-    CommonModule,
-    ActualidadRoutingModule,
-    HomeModule
-  ]
+  declarations: [ActualidadComponent],
+  imports: [CommonModule, ActualidadRoutingModule, HomeModule],
 })
-export class ActualidadModule { }
+export class ActualidadModule {}

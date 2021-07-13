@@ -29,9 +29,9 @@ import { DestamosComponent } from './components/destamos/destamos.component';
     SliderComponent,
     PrecientesComponent,
     SolucionesComponent,
-    DestamosComponent
+    DestamosComponent,
   ],
   imports: [CommonModule, HomeRoutingModule],
-  exports:[NproveedoresComponent, FooterComponent, HeaderComponent]
+  exports: [NproveedoresComponent, FooterComponent, HeaderComponent],
 })
 export class HomeModule {}
